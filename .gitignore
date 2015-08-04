@@ -1,0 +1,27 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+sites/all/modules/local
+
+#Ignore paths to multisite and symlink-related paths
+sites/stlawu.edu.twitter-society/
+sites/stlawu.edu.twitter-society/*
+adirondack-bibliography -> /htdocs/drupal/adirondack-bibliography/docroot
+/htdocs/drupal/adirondack-bibliography/docroot
+dslc -> /htdocs/drupal/dslc/docroot/
+/htdocs/drupal/dslc/docroot
+human-rights-researcher -> /htdocs/drupal/human-rights/docroot/
+/htdocs/drupal/human-rights/docroot
+ksp -> /htdocs/drupal/ksp/docroot/
+peopleshistoryarchive -> /htdocs/drupal/peopleshistoryarchive.org/docroot/
+/htdocs/drupal/peopleshistoryarchive.org/docroot/
+twitter-society -> /htdocs/drupal/twitter-society/docroot/
+/htdocs/drupal/twitter-society/docroot/
+
+#Various and Sundry
+
+.DS_Store
+._.DS_Store
